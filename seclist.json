@@ -1,0 +1,1038 @@
+```json
+{
+  "AV (Antivirus / Antimalware)": [
+    {
+      "Solution": "Symantec Endpoint Protection",
+      "Process Name(s)": ["ccSvcHst.exe", "Smc.exe"],
+      "Driver Name(s)": ["SRTSP.sys", "SymEFA.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee Endpoint Security",
+      "Process Name(s)": ["mfetp.exe", "mfeesp.exe"],
+      "Driver Name(s)": ["mfewfpk.sys", "mfeavfk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Sophos Intercept X",
+      "Process Name(s)": ["SAVService.exe", "SAVAdminService.exe"],
+      "Driver Name(s)": ["savioursys.sys", "hmpalert.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Bitdefender GravityZone",
+      "Process Name(s)": ["EPConsole.exe", "bdservicehost.exe"],
+      "Driver Name(s)": ["trufos.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ESET Endpoint Security",
+      "Process Name(s)": ["ekrn.exe"],
+      "Driver Name(s)": ["ehdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Malwarebytes Endpoint Protection",
+      "Process Name(s)": ["mbamservice.exe"],
+      "Driver Name(s)": ["MBAMSwissArmy.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Webroot SecureAnywhere",
+      "Process Name(s)": ["WRSA.exe"],
+      "Driver Name(s)": ["WRkrn.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Avast Business Antivirus",
+      "Process Name(s)": ["AvastSvc.exe", "AvastUI.exe"],
+      "Driver Name(s)": ["aswSP.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Kaspersky Endpoint Security",
+      "Process Name(s)": ["avp.exe"],
+      "Driver Name(s)": ["klif.sys", "klhk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "F-Secure Protection Service for Business",
+      "Process Name(s)": ["F-Secure.exe"],
+      "Driver Name(s)": ["fses.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "VIPRE Advanced Security",
+      "Process Name(s)": ["SBAMSvc.exe"],
+      "Driver Name(s)": ["SBREDrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Panda Adaptive Defense",
+      "Process Name(s)": ["PSANHost.exe", "PSUAService.exe"],
+      "Driver Name(s)": ["PSINFile.sys", "PSINProc.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "G Data Endpoint Protection",
+      "Process Name(s)": ["GDataAVK.exe", "AVKService.exe"],
+      "Driver Name(s)": ["GDKBFlt64.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Emsisoft Enterprise Security",
+      "Process Name(s)": ["a2service.exe"],
+      "Driver Name(s)": ["a2dskm.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Dr.Web Enterprise Security Suite",
+      "Process Name(s)": ["dwservice.exe"],
+      "Driver Name(s)": ["dwprot.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ZoneAlarm Anti-Ransomware",
+      "Process Name(s)": ["ZAPrivacyService.exe"],
+      "Driver Name(s)": ["ZAPrivacy.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "BullGuard Endpoint Security",
+      "Process Name(s)": ["BullGuardSvc.exe"],
+      "Driver Name(s)": ["BgLiveKern.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Avira Antivirus Pro",
+      "Process Name(s)": ["avguard.exe"],
+      "Driver Name(s)": ["avgntflt.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "AhnLab V3 Endpoint Security",
+      "Process Name(s)": ["V3Svc.exe"],
+      "Driver Name(s)": ["V3Monitor.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro Apex One",
+      "Process Name(s)": ["ntrtscan.exe", "pccntmon.exe"],
+      "Driver Name(s)": ["TmXPFlt.sys", "TMEBC64.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Comodo Advanced Endpoint Protection",
+      "Process Name(s)": ["cmdagent.exe"],
+      "Driver Name(s)": ["cmdguard.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "SecureAPlus",
+      "Process Name(s)": ["SecureAPlus.exe"],
+      "Driver Name(s)": ["SecureAPlus.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Heimdal Security Thor",
+      "Process Name(s)": ["HeimdalClientHost.exe"],
+      "Driver Name(s)": ["HeimdalSecureDNS.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trustwave Endpoint Protection",
+      "Process Name(s)": ["TrustwaveService.exe"],
+      "Driver Name(s)": ["Trustwave.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cybereason Active Monitoring",
+      "Process Name(s)": ["CybereasonRansomFreeService.exe"],
+      "Driver Name(s)": ["Cybereason.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Deep Instinct",
+      "Process Name(s)": ["DeepInstinctService.exe"],
+      "Driver Name(s)": ["DeepInstinct.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Defender Antivirus",
+      "Process Name(s)": ["MsMpEng.exe"],
+      "Driver Name(s)": ["WdFilter.sys", "wdk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Bitdefender Antivirus Plus",
+      "Process Name(s)": ["bdservicehost.exe"],
+      "Driver Name(s)": ["trufos.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Norton Security",
+      "Process Name(s)": ["nortonsecurity.exe"],
+      "Driver Name(s)": ["nortonsecurity.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "AVG Antivirus",
+      "Process Name(s)": ["avgsvc.exe"],
+      "Driver Name(s)": ["avgmfx64.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro Maximum Security",
+      "Process Name(s)": ["TMASOAgent.exe"],
+      "Driver Name(s)": ["tmaso.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Quick Heal Total Security",
+      "Process Name(s)": ["qhepsvc.exe"],
+      "Driver Name(s)": ["qhdisk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro OfficeScan",
+      "Process Name(s)": ["ntrtscan.exe"],
+      "Driver Name(s)": ["TmXPFlt.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "F-Secure Client Security",
+      "Process Name(s)": ["F-Secure.exe"],
+      "Driver Name(s)": ["fses.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee Total Protection",
+      "Process Name(s)": ["mcshield.exe"],
+      "Driver Name(s)": ["mfehidk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Norton 360",
+      "Process Name(s)": ["n360.exe"],
+      "Driver Name(s)": ["n360drv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Avast",
+      "Process Name(s)": ["aswidsagent.exe"],
+      "Driver Name(s)": ["aswids.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Absolute Persistence",
+      "Process Name(s)": ["acnamagent.exe", "acnamlogonagent.exe"],
+      "Driver Name(s)": ["absolutepersistence.sys"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "Bitdefender Total Security",
+      "Process Name(s)": ["bdagent.exe", "vsserv.exe"],
+      "Driver Name(s)": ["bdts.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro Antivirus",
+      "Process Name(s)": ["clientcommunicationservice.exe"],
+      "Driver Name(s)": ["trendmicro.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Avira",
+      "Process Name(s)": ["avgnt.exe"],
+      "Driver Name(s)": ["avgntflt.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro Antivirus",
+      "Process Name(s)": ["clientlogservice.exe"],
+     
+
+ "Driver Name(s)": ["trendmicro.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro Antivirus",
+      "Process Name(s)": ["clientsolutionframework.exe"],
+      "Driver Name(s)": ["trendmicro.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Kaspersky",
+      "Process Name(s)": ["klwtblfs.exe"],
+      "Driver Name(s)": ["klif.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Kaspersky",
+      "Process Name(s)": ["klwtpwrs.srv"],
+      "Driver Name(s)": ["klif.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ESET NOD32",
+      "Process Name(s)": ["egui.exe", "ekrn.exe"],
+      "Driver Name(s)": ["ehdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee VirusScan",
+      "Process Name(s)": ["mcshield.exe", "shstat.exe"],
+      "Driver Name(s)": ["mfehidk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Panda Security",
+      "Process Name(s)": ["panda_url_filtering.exe", "pavfnsvr.exe", "pavsrv.exe", "psanhost.exe"],
+      "Driver Name(s)": ["pavdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Sophos Endpoint Security",
+      "Process Name(s)": ["savservice.exe", "sophosav.exe", "sophosclean.exe", "sophoshealth.exe", "sophossps.exe", "sophosui.exe"],
+      "Driver Name(s)": ["sophos.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Bitdefender",
+      "Process Name(s)": ["updatesrv.exe"],
+      "Driver Name(s)": ["bitdefender.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Windows Defender",
+      "Process Name(s)": ["windefend.exe"],
+      "Driver Name(s)": ["WdFilter.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Webroot",
+      "Process Name(s)": ["wrsa.exe"],
+      "Driver Name(s)": ["wrkrn.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Altiris Symantec",
+      "Process Name(s)": ["ccSvcHst.exe"],
+      "Driver Name(s)": ["atrsdfw.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cisco AMP",
+      "Process Name(s)": ["sfc.exe"],
+      "Driver Name(s)": ["csacentr.sys", "csaenh.sys", "csareg.sys", "csascr.sys", "csaav.sys", "csaam.sys"],
+      "Kernel Mode": "Y"
+    }
+  ],
+  "EDR/XDR/IDR/IPS/IDS (Endpoint Detection and Response / Extended Detection and Response / Incident Detection and Response / Intrusion Prevention Systems / Intrusion Detection Systems)": [
+    {
+      "Solution": "CrowdStrike Falcon",
+      "Process Name(s)": ["CSFalconService.exe"],
+      "Driver Name(s)": ["csagent.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Carbon Black (VMware)",
+      "Process Name(s)": ["cb.exe", "cbdefense.exe"],
+      "Driver Name(s)": ["carbonblackk.sys", "cbk7.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "SentinelOne",
+      "Process Name(s)": ["SentinelAgent.exe", "sentinelctl.exe", "sentinelmemoryscanner.exe", "sentinelservicehost.exe", "sentinelstaticengine.exe", "sentinelstaticenginescanner.exe"],
+      "Driver Name(s)": ["sentinel.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Defender for Endpoint (MDE)",
+      "Process Name(s)": ["SenseCncProxy.exe", "MsSense.exe"],
+      "Driver Name(s)": ["wdboot.sys", "wdfilter.sys", "WdNisDrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Symantec Endpoint Detection and Response",
+      "Process Name(s)": ["SescLU.exe", "seplu.exe"],
+      "Driver Name(s)": ["SescDrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee Endpoint Detection and Response",
+      "Process Name(s)": ["mfefire.exe", "mfeepmpk.exe"],
+      "Driver Name(s)": ["mfehidk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Sophos Intercept X",
+      "Process Name(s)": ["SAVService.exe", "SAVAdminService.exe"],
+      "Driver Name(s)": ["savioursys.sys", "hmpalert.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Bitdefender GravityZone",
+      "Process Name(s)": ["EPConsole.exe", "bdservicehost.exe"],
+      "Driver Name(s)": ["trufos.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ESET Endpoint Security",
+      "Process Name(s)": ["ekrn.exe"],
+      "Driver Name(s)": ["ehdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Malwarebytes Endpoint Protection",
+      "Process Name(s)": ["mbamservice.exe"],
+      "Driver Name(s)": ["MBAMSwissArmy.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Webroot SecureAnywhere",
+      "Process Name(s)": ["WRSA.exe"],
+      "Driver Name(s)": ["WRkrn.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Avast Business Antivirus",
+      "Process Name(s)": ["AvastSvc.exe", "AvastUI.exe"],
+      "Driver Name(s)": ["aswSP.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Kaspersky Endpoint Security",
+      "Process Name(s)": ["avp.exe"],
+      "Driver Name(s)": ["klif.sys", "klhk.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "FireEye Endpoint Security",
+      "Process Name(s)": ["xagt.exe"],
+      "Driver Name(s)": ["fe_sysmon.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cisco AMP for Endpoints",
+      "Process Name(s)": ["sfc.exe", "CylanceSvc.exe"],
+      "Driver Name(s)": ["cylance.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Palo Alto Networks Traps",
+      "Process Name(s)": ["CyveraService.exe", "CyveraConsole.exe", "traps.exe", "trapsagent.exe", "trapsd.exe"],
+      "Driver Name(s)": ["cyverak.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro Apex One",
+      "Process Name(s)": ["ntrtscan.exe", "pccntmon.exe"],
+      "Driver Name(s)": ["TmXPFlt.sys", "TMEBC64.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Sophos XDR",
+      "Process Name(s)": ["SAVService.exe", "SAVAdminService.exe"],
+      "Driver Name(s)": ["savioursys.sys", "hmpalert.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Check Point SandBlast Agent",
+      "Process Name(s)": ["TracSrvWrapper.exe", "cpda.exe"],
+      "Driver Name(s)": ["cpprotect.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Comodo Advanced Endpoint Protection",
+      "Process Name(s)": ["cmdagent.exe"],
+      "Driver Name(s)": ["cmdguard.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cybereason Defense Platform",
+      "Process Name(s)": ["CybereasonRansomFreeService.exe"],
+      "Driver Name(s)": ["Cybereason.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Elastic Endpoint Security",
+      "Process Name(s)": ["elastic-endpoint.exe"],
+      "Driver Name(s)": ["elastic-endpoint.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "BlackBerry Optics",
+      "Process Name(s)": ["CylanceSvc.exe"],
+      "Driver Name(s)": ["cylance.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "VMware Workspace ONE",
+      "Process Name(s)": ["AirWatchService.exe"],
+      "Driver Name(s)": ["aw_vbfilter.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "RSA NetWitness Endpoint",
+      "Process Name(s)": ["nwservice.exe"],
+      "Driver Name(s)": ["nwkernel.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee MVISION Endpoint",
+      "Process Name(s)": ["MfeE
+
+peHost.exe"],
+      "Driver Name(s)": ["MfeEpePc.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ArcSight ESM",
+      "Process Name(s)": ["arcsight.exe"],
+      "Driver Name(s)": ["arcsightdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Ivanti Endpoint Security",
+      "Process Name(s)": ["HeatSoftware.exe"],
+      "Driver Name(s)": ["HeatSys.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ZoneAlarm Anti-Ransomware",
+      "Process Name(s)": ["ZAPrivacyService.exe"],
+      "Driver Name(s)": ["ZAPrivacy.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "G Data Endpoint Protection",
+      "Process Name(s)": ["GDataAVK.exe", "AVKService.exe"],
+      "Driver Name(s)": ["GDKBFlt64.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Emsisoft Enterprise Security",
+      "Process Name(s)": ["a2service.exe"],
+      "Driver Name(s)": ["a2dskm.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Dr.Web Enterprise Security Suite",
+      "Process Name(s)": ["dwservice.exe"],
+      "Driver Name(s)": ["dwprot.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Heimdal Security Thor",
+      "Process Name(s)": ["HeimdalClientHost.exe"],
+      "Driver Name(s)": ["HeimdalSecureDNS.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "SecureAPlus",
+      "Process Name(s)": ["SecureAPlus.exe"],
+      "Driver Name(s)": ["SecureAPlus.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "AhnLab V3 Endpoint Security",
+      "Process Name(s)": ["V3Svc.exe"],
+      "Driver Name(s)": ["V3Monitor.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trustwave Endpoint Protection",
+      "Process Name(s)": ["TrustwaveService.exe"],
+      "Driver Name(s)": ["Trustwave.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "BullGuard Endpoint Security",
+      "Process Name(s)": ["BullGuardSvc.exe"],
+      "Driver Name(s)": ["BgLiveKern.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Avira Antivirus Pro",
+      "Process Name(s)": ["avguard.exe"],
+      "Driver Name(s)": ["avgntflt.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "FortiEDR (Fortinet)",
+      "Process Name(s)": ["fdedr.exe"],
+      "Driver Name(s)": ["fdedrdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cynet 360",
+      "Process Name(s)": ["cyserver.exe"],
+      "Driver Name(s)": ["cyndrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "BlackBerry Protect",
+      "Process Name(s)": ["BlackBerryProtect.exe"],
+      "Driver Name(s)": ["BlackBerryDrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "CrowdStrike Falcon Complete",
+      "Process Name(s)": ["CSFalconService.exe"],
+      "Driver Name(s)": ["csfalcondrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Rapid7 InsightIDR",
+      "Process Name(s)": ["rapid7.exe"],
+      "Driver Name(s)": ["rapid7drv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cisco Umbrella Roaming Security",
+      "Process Name(s)": ["aciseagent.exe", "acumbrellaagent.exe"],
+      "Driver Name(s)": ["umbrella.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trend Micro EDR",
+      "Process Name(s)": ["appcontrolagent.exe", "browserexploitdetection.exe", "dataprotectionservice.exe", "endpointbasecamp.exe", "realtime scanservice.exe", "samplingservice.exe", "securityagentmonitor.exe"],
+      "Driver Name(s)": ["trendmicroedr.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Darktrace",
+      "Process Name(s)": ["darktracetsa.exe"],
+      "Driver Name(s)": ["darktrace.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "DriveSentry",
+      "Process Name(s)": ["dsmonitor.exe", "dwengine.exe"],
+      "Driver Name(s)": ["drivesentry.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Cytomic Orion",
+      "Process Name(s)": ["cytomicendpoint.exe"],
+      "Driver Name(s)": ["cytomic.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Tanium EDR",
+      "Process Name(s)": ["tanclient.exe"],
+      "Driver Name(s)": ["tanium.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Altiris Symantec",
+      "Process Name(s)": ["ccSvcHst.exe"],
+      "Driver Name(s)": ["atrsdfw.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Dell Secureworks",
+      "Process Name(s)": ["secureworks.exe"],
+      "Driver Name(s)": ["groundling32.sys", "groundling64.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Endgame",
+      "Process Name(s)": ["endgame.exe"],
+      "Driver Name(s)": ["esensor.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "FireEye",
+      "Process Name(s)": ["fireeye.exe"],
+      "Driver Name(s)": ["FeKern.sys", "WFP_MRT.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "F-Secure",
+      "Process Name(s)": ["fsecure.exe"],
+      "Driver Name(s)": ["xfsgk.sys", "fsatp.sys", "fshs.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Hexis Cyber Solutions",
+      "Process Name(s)": ["hexis.exe"],
+      "Driver Name(s)": ["HexisFSMonitor.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Sophos",
+      "Process Name(s)": ["savservice.exe"],
+      "Driver Name(s)": ["SAVOnAccess.sys", "savonaccess.sys", "sld.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Symantec",
+      "Process Name(s)": ["symantec.exe"],
+      "Driver Name(s)": ["pgpwdefs.sys", "GEProtection.sys", "diflt.sys", "sysMon.sys", "ssrfsf.sys", "emxdrv2.sys", "reghook.sys", "spbbcdrv.sys", "bhdrvx86.sys", "bhdrvx64.sys", "SISIPSFileFilter.sys", "symevent.sys", "vxfsrep.sys", "VirtFile.sys", "SymAFR.sys", "symefasi.sys", "symefa.sys", "symefa64.sys", "SymHsm.sys", "evmf.sys", "GEFCMP.sys", "VFSEnc.sys", "pgpfs.sys", "fencry.sys", "symrg.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee",
+      "Process Name(s)": ["mcafee.exe"],
+      "Driver Name(s)": ["mfeaskm.sys", "mfencfilter.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Raytheon Cyber Solutions",
+      "Process Name(s)": ["raytheon.exe"],
+      "Driver Name(s)": ["eaw.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "SAFE-Cyberdefense",
+      "Process Name(s)": ["safe.exe"],
+      "Driver Name(s)": ["SAFE-Agent.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Defender XDR",
+      "Process Name(s)": ["MsSense.exe"],
+      "Driver Name(s)": ["wdboot.sys", "wdfilter.sys", "WdNisDrv.sys"],
+      "Kernel Mode": "Y"
+    }
+  ],
+  "SIEM Solutions / Log Collectors / Log Forwarders": [
+    {
+      "Solution": "Splunk Universal Forwarder",
+      "Process Name(s)": ["splunkd.exe"],
+      "Driver Name(s)": ["splunkdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "IBM QRadar",
+      "Process Name(s)": ["qradar.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "LogRhythm SIEM",
+      "Process Name(s)": ["lragent.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+
+
+      "Solution": "ArcSight ESM",
+      "Process Name(s)": ["arcsight.exe"],
+      "Driver Name(s)": ["arcsightdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "AlienVault USM",
+      "Process Name(s)": ["ossec-agent.exe"],
+      "Driver Name(s)": ["ossec.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Sumo Logic",
+      "Process Name(s)": ["sumo.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "Graylog",
+      "Process Name(s)": ["graylog-agent.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "LogPoint",
+      "Process Name(s)": ["logpoint-agent.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "SolarWinds SEM",
+      "Process Name(s)": ["SolarWindsSEM.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "RSA NetWitness",
+      "Process Name(s)": ["nwservice.exe"],
+      "Driver Name(s)": ["nwkernel.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Sentinel",
+      "Process Name(s)": ["MsSense.exe"],
+      "Driver Name(s)": ["wdboot.sys", "wdfilter.sys", "WdNisDrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Nexthink",
+      "Process Name(s)": ["nxtusm.exe"],
+      "Driver Name(s)": ["nxtrdrv.sys", "nxtrdrv5.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Nexthink Collector",
+      "Process Name(s)": ["nxtsvc.exe"],
+      "Driver Name(s)": ["nxtrdrv.sys", "nxtrdrv5.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Elastic SIEM",
+      "Process Name(s)": ["elastic-agent.exe"],
+      "Driver Name(s)": ["elasticdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Devo SIEM",
+      "Process Name(s)": ["devo-agent.exe"],
+      "Driver Name(s)": ["N/A"],
+      "Kernel Mode": "N"
+    },
+    {
+      "Solution": "AT&T Cybersecurity USM",
+      "Process Name(s)": ["usm-agent.exe"],
+      "Driver Name(s)": ["usmdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Sysmon",
+      "Process Name(s)": ["sysmon.exe", "sysmon64.exe"],
+      "Driver Name(s)": ["sysmondrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "SolarWinds NPM",
+      "Process Name(s)": ["npmdagent.exe"],
+      "Driver Name(s)": ["solarwinds.sys"],
+      "Kernel Mode": "Y"
+    }
+  ],
+  "Applockers / PIM Solutions (Privilege Identity Management / Application Locker)": [
+    {
+      "Solution": "CyberArk Endpoint Privilege Manager",
+      "Process Name(s)": ["epmService.exe"],
+      "Driver Name(s)": ["epmDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Thycotic Privilege Manager",
+      "Process Name(s)": ["DPMService.exe"],
+      "Driver Name(s)": ["DPMDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "BeyondTrust Endpoint Privilege Management",
+      "Process Name(s)": ["BeyondTrust.exe"],
+      "Driver Name(s)": ["BeyondTrustDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Ivanti Application Control",
+      "Process Name(s)": ["AppSenseService.exe"],
+      "Driver Name(s)": ["AppSenseDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft AppLocker",
+      "Process Name(s)": ["AppLockerService.exe"],
+      "Driver Name(s)": ["AppLocker.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Symantec Endpoint Privilege Control",
+      "Process Name(s)": ["SEPCService.exe"],
+      "Driver Name(s)": ["SEPCDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ThreatLocker",
+      "Process Name(s)": ["ThreatLockerService.exe"],
+      "Driver Name(s)": ["ThreatLocker.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "CyberArk Software",
+      "Process Name(s)": ["epmService.exe"],
+      "Driver Name(s)": ["CybKernelTracker.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Delinea Secret Server",
+      "Process Name(s)": ["SecretServerService.exe"],
+      "Driver Name(s)": ["DelineaDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ManageEngine PAM360",
+      "Process Name(s)": ["PAM360Service.exe"],
+      "Driver Name(s)": ["ManageEngineDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "WALLIX Bastion",
+      "Process Name(s)": ["WALLIXService.exe"],
+      "Driver Name(s)": ["WALLIXDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "ARCON PAM",
+      "Process Name(s)": ["ARCONService.exe"],
+      "Driver Name(s)": ["ARCONDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "StrongDM",
+      "Process Name(s)": ["StrongDMService.exe"],
+      "Driver Name(s)": ["StrongDMDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Symantec PAM",
+      "Process Name(s)": ["SymantecPAMService.exe"],
+      "Driver Name(s)": ["SymantecPAMDriver.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Entra ID",
+      "Process Name(s)": ["EntraIDService.exe"],
+      "Driver Name(s)": ["EntraIDDriver.sys"],
+      "Kernel Mode": "Y"
+    }
+  ],
+  "Network Security & Firewall Solutions": [
+    {
+      "Solution": "Cisco Firepower",
+      "Process Name(s)": ["sfmgr.exe"],
+      "Driver Name(s)": ["sfkmdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Palo Alto Networks GlobalProtect",
+      "Process Name(s)": ["PanGPA.exe"],
+      "Driver Name(s)": ["pangpd.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Fortinet FortiClient",
+      "Process Name(s)": ["FortiTray.exe"],
+      "Driver Name(s)": ["fortimon.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Check Point Endpoint Security",
+      "Process Name(s)": ["TrGUI.exe"],
+      "Driver Name(s)": ["trdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Check Point Firewall",
+      "Process Name(s)": ["fw.exe"],
+      "Driver Name(s)": ["checkpointfw.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Kerio Personal Firewall",
+      "Process Name(s)": ["kpf4ss.exe"],
+      "Driver Name(s)": ["kpfdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Agnitum Outpost Firewall",
+      "Process Name(s)": ["outpost.exe"],
+      "Driver Name(s)": ["agnitumfw.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee Endpoint Security Firewall",
+      "Process Name(s)": ["mfemactl.exe"],
+      "Driver Name(s)": ["mfeepf.sys"],
+      "Kernel Mode": "Y"
+    }
+  ],
+  "Complete List of Data Loss Prevention (DLP) Solutions": [
+    {
+      "Solution": "Symantec DLP",
+      "Process Name(s)": ["edpa.exe", "wdp.exe"],
+      "Driver Name(s)": ["dlpf.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee Total Protection for DLP",
+      "Process Name(s)": ["dlps.exe"],
+      "Driver Name(s)": ["dlpf.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Symantec DLP Agent",
+      "Process Name(s)": ["dlpagent.exe"],
+      "Driver Name(s)": ["dlpagent.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "McAfee DLP Sensor",
+      "Process Name(s)": ["dlpsensor.exe"],
+      "Driver Name(s)": ["dlpsensor.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Trellix DLP Endpoint",
+      "Process Name(s)": ["trellixdlpagent.exe"],
+      "Driver Name(s)": ["trellixdlpdrv.sys"],
+      "
+
+Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Proofpoint DLP",
+      "Process Name(s)": ["proofpointagent.exe"],
+      "Driver Name(s)": ["proofpointdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "CrowdStrike Falcon Data Protection",
+      "Process Name(s)": ["csfalcondataprotect.exe"],
+      "Driver Name(s)": ["csfalconprotectiondrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Forcepoint DLP",
+      "Process Name(s)": ["forcepointdlp.exe"],
+      "Driver Name(s)": ["forcepointdlpdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Digital Guardian",
+      "Process Name(s)": ["dgagent.exe"],
+      "Driver Name(s)": ["dgdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Zscaler Cloud DLP",
+      "Process Name(s)": ["zscalerdlp.exe"],
+      "Driver Name(s)": ["zscalerdlpdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Microsoft Purview DLP",
+      "Process Name(s)": ["microsoftpurview.exe"],
+      "Driver Name(s)": ["microsoftpurviewdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Varonis DLP",
+      "Process Name(s)": ["varonisdlp.exe"],
+      "Driver Name(s)": ["varonisdlpdrv.sys"],
+      "Kernel Mode": "Y"
+    },
+    {
+      "Solution": "Amazon Macie DLP",
+      "Process Name(s)": ["maciedlp.exe"],
+      "Driver Name(s)": ["maciedlpdrv.sys"],
+      "Kernel Mode": "Y"
+    }
+  ]
+}
+```

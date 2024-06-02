@@ -1,7 +1,5 @@
 # Security-Software-Process-and-Driver-Names
-Security Software Driver Names and Process Names, please send pull requests in case you want to add more to this list such as registry keys or any other
-
-identifiers of AV's, EDR/XDR's or other security products.
+Security Software Driver Names and Process Names, please send pull requests in case you want to add more to this list such as registry keys or any other identifiers of AV's, EDR/XDR's or other security products.
 
 # Security Software Process and Driver Information
 

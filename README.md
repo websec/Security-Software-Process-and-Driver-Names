@@ -57,7 +57,7 @@ Security Software Driver Names and Process Names, please send pull requests in c
 | Altiris Symantec                  | ccSvcHst.exe                          | atrsdfw.sys               | Y           |
 | Cisco AMP                         | sfc.exe                               | csacentr.sys, csaenh.sys, csareg.sys, csascr.sys, csaav.sys, csaam.sys | Y |
 
-## EDR/XDR/IDR/IPS/IDS (Endpoint Detection and Response / Extended Detection and Response / Incident Detection and Response / Intrusion Prevention Systems / Intrusion Detection Systems)
+## EDR/XDR/IDR/IPS/IDS
 
 | Solution                          | Process Name(s)                       | Driver Name(s)            | Kernel Mode |
 |-----------------------------------|---------------------------------------|---------------------------|-------------|

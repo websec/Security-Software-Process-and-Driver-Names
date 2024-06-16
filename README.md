@@ -186,17 +186,4 @@ If you wish to contribute, please edit the JSON file, we will update the readme.
 | Solution                          | Process Name(s)                       | Driver Name(s)            | Kernel Mode |
 |-----------------------------------|---------------------------------------|---------------------------|-------------|
 | Symantec DLP                      | edpa.exe, wdp.exe                     | dlpf.sys                  | Y           |
-| McAfee Total Protection for DLP   | dlps.exe                              | dlpf.sys                  | Y           |
-| Symantec DLP Agent                | dlpagent.exe                          | dlpagent.sys              | Y           |
-| McAfee DLP Sensor                 | dlpsensor.exe                         | dlpsensor.sys             | Y           |
-| Trellix DLP Endpoint              | trellixdlpagent.exe                   | trellixdlpdrv.sys         | Y           |
-| Proofpoint DLP                    | proofpointagent.exe                   | proofpointdrv.sys         | Y           |
-| CrowdStrike Falcon Data Protection | csfalcondataprotect.exe               | csfalconprotectiondrv.sys | Y           |
-| Forcepoint DLP                    | forcepointdlp.exe                     | forcepointdlpdrv.sys      | Y           |
-| Digital Guardian                  | dgagent.exe                           | dgdrv.sys                 | Y           |
-| Zscaler Cloud DLP                 | zscalerdlp.exe                        | zscalerdlpdrv.sys         | Y           |
-| Microsoft Purview DLP             | microsoftpurview.exe                  | microsoftpurviewdrv.sys   | Y           |
-| Varonis DLP                       | varonisdlp.exe                        | varonisdlpdrv.sys         | Y           |
-| Amazon Macie DLP                  | maciedlp.exe                          | maciedlpdrv.sys           | Y           |
-
 

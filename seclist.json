@@ -480,9 +480,7 @@
     },
     {
       "Solution": "McAfee MVISION Endpoint",
-      "Process Name(s)": ["MfeE
-
-peHost.exe"],
+      "Process Name(s)": ["MfeEpeHost.exe"],
       "Driver Name(s)": ["MfeEpePc.sys"],
       "Kernel Mode": "Y"
     },

@@ -978,9 +978,7 @@
       "Solution": "Trellix DLP Endpoint",
       "Process Name(s)": ["trellixdlpagent.exe"],
       "Driver Name(s)": ["trellixdlpdrv.sys"],
-      "
-
-Kernel Mode": "Y"
+      "Kernel Mode": "Y"
     },
     {
       "Solution": "Proofpoint DLP",
